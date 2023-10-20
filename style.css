@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+}
+.head{
+    background-color: rgb(252, 202, 141);
+    width: 800px;
+    height: 100px;
+    margin-left: 60%;
+    margin-top: -1600px;
+    border-radius: 30px;
+}
+
+.h{
+    font-size: 66px;
+    padding-left: 45%;
+    color: rgb(53, 22, 22);
+    font-family:  cursive;
+}
+
+.rr{
+    width: 500px;
+    height: 300px;
+    background-color: bisque;
+    padding-top: 1700px;
+    margin-top: -12px;
+}
+
+
+.section{
+    flex: 25%;
+    width: 25%;
+    float: left;
+    padding: 0 10px;
+    margin-top: -1500px;
+   
+}
+
+img{
+    width: 100%;
+    margin: 10px;
+    transform: scale(0.8);
+    transition: 1s ease-in-out;
+}
+
+img:hover{
+     transform: scale(1) rotate(-45deg);
+}
+
+.container{
+   margin-top: 200px;
+  
+}
